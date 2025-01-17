@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 ul {
     list-style: none;
 }
@@ -39,7 +44,6 @@ body {
 }
 
 img {
-    width: 100%;
     max-width: 100%;
     vertical-align: top;
 }
